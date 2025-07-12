@@ -68,7 +68,7 @@ El proyecto se enfoca en:
 * Git
 * Gunicorn
 * Celery
-* **Broker de Mensajes**: RabbitMQ o Redis
+* **Broker de Mensajes**: Redis
 * \[Opcional] Ollama
 
 ## 💻 Instalación de Dependencias de Python
@@ -97,14 +97,6 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/alemitaritonna/arguita-ai-inference-utils.git
 cd arguita-ai-inference-utils
-```
-
-Sigue los pasos de instalación anteriores.
-
-Si utilizas un archivo `.env`:
-
-```bash
-source .env
 ```
 
 ### Ejecución de Servicios
